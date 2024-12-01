@@ -4,7 +4,12 @@ Chai Levy - 313589038
 This is a revised version of the game we showed during class.
 * In this version the map has boundaries on the top and bottom parts.
 * The player can warp between the right side to the left side and vice versa.
-* The player can preform a dodge essentially dodge the incomming enemies and destroy them.
+* The player can perform a dodge essentially dodge the incoming enemies and destroy them.
+## Changes code locations and usage
+The code changes were all made in the InputMover script attached to the Player Spaceship.
+* HorizontalWarp - This function is responsible for warping the player from the right to the left boundary and vice versa.
+* VerticalBoundaryBlock - This function is responsible for blocking the player's movement on the y-axis (upper and lower boundary).
+* PerformDodge - This function is responsible for making the player dodge to the direction the player is going (if no direction is given then the player will dodge to the right) and destroying enemy ships on it's way whilst also having invincibility frames.
 
 ## Player Keybinds
 * Arrow Keys for movement
