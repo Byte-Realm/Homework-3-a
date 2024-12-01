@@ -5,6 +5,8 @@ This is a revised version of the game we showed during class.
 * In this version the map has boundaries on the top and bottom parts.
 * The player can warp between the right side to the left side and vice versa.
 * The player can perform a dodge essentially dodge the incoming enemies and destroy them.
+### Itch io link
+* [https://chai9l.itch.io/game-dev-course-3-a ](https://chai9l.itch.io/game-dev-course-3-a) 
 ## Changes code locations and usage
 The code changes were all made in the InputMover script attached to the Player Spaceship.
 * HorizontalWarp - This function is responsible for warping the player from the right to the left boundary and vice versa.
